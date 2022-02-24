@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="nav nav-pills nav-justified">
+        <img class="nav__logo" src="../img/bandera islandia sin fondo.jpeg" alt="bandera de islandia">
+        <a class="nav-link" href="../index.html">Inicio</a>
+        <a class="nav-link" href="">Transporte</a>
+        <a class="nav-link" href="">Alojamiento</a>
+        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+    </nav>
+    <header class="header">
+        <h1 class="header__title">
+            <p>Contáctanos</p>
+        </h1>
+        <h4 class="header__subtitle">
+            <p>Te ayudamos a planear tu viaje</p>
+        </h4>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="carrusel col-lg-6 col-xl-6 col-xxl-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/aurora1.jpg" class="d-block w-100" alt="aurora boreal">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/aurora4.jpg" class="d-block w-100" alt="mar">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/aurora5.jpg" class="d-block w-100" alt="mar">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+            <div class="formulario col-lg-6 col-xl-6 col-xxl-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-success">Enviar</button>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p> Islandia 2022 | Disfruta del viaje | Bootstrap</p>
+    </footer>
+</body>
+
+</html>
